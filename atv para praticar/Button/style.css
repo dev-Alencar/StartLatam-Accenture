@@ -1,0 +1,16 @@
+button {
+  width: 100px;
+  padding: 10px;
+  border: 2px, solid, violet;
+  border-radius: 5px;
+  background-color: white;
+  color: violet;
+  font-size: 16px;
+  outline: none;
+}
+
+button:hover{
+  background:violet;
+  color: white;
+
+}

@@ -1,0 +1,40 @@
+body {
+  /*background-color: rgb(47, 47, 43);*/
+  background-color: #000000;
+}
+
+#id-pic {
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 474px;
+}
+
+#fonts {
+  margin-top: 50px;
+  margin-left: 400px;
+}
+
+#tit1 {
+  width: 300px;
+  margin-left: 100px;
+}
+
+#tit2 {
+  width: 300px;
+}
+
+#tit3 {
+  margin-left: 65px;
+}
+
+#container {
+  border-top: 50px outset #e52521;
+  border-left: 50px outset #43b047;
+  border-bottom: 50px outset #049cd8;
+  border-right: 50px outset #fbd000;
+}
+
+footer {
+  color: whitesmoke;
+  margin-left: 620px;
+}

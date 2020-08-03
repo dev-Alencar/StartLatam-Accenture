@@ -1,0 +1,123 @@
+VARIÁVEIS:
+
+
+Desafio:Boris, o coelho dentuço: 
+
+ellipse(150, 70, 60, 120);  // left ear
+ellipse(240, 70, 60, 120);  // right ear
+
+ellipse(200, 170, 150, 150);    // face
+
+var tamanho = 70;
+
+fill(0, 0, 0);
+ellipse (170, 150, tamanho, tamanho); // left eye
+ellipse(230, 150, tamanho, tamanho);  // right eye
+
+
+line(150, 200, 250, 200);   // mouth
+
+var dentes = 30;
+noFill();
+rect(185, 200, 15, dentes); // left tooth
+rect(200, 200, 15, dentes); // right tooth
+
+
+
+
+
+O Sapo do Brejo:
+
+var x = 200;
+var y = 250;
+
+noStroke();
+fill(30, 204, 91); // a nice froggy green!
+
+
+ellipse(x, y, 200, 100); // face
+ellipse(x - 50, y - 50, 40, 40); // left eye socket
+ellipse(x + 50, y - 50, 40, 40); // right eye socket
+
+
+fill(255, 255, 255); // for the whites of the eyes!
+ellipse(x - 50, y - 50, 30, 30); // left eyeball
+ellipse(x + 50, y - 50, 30, 30); // right eyeball
+
+fill(18, 17, 17);
+rect (x -60 ,y-60, 12, 10);
+rect (x +45, y-55, 15,10);
+
+ 
+fill(227, 18, 18);
+ellipse( x, y, 100, 50);
+
+
+
+
+
+_____________________________________________________________________________
+
+STRINGS:
+
+
+Minhas comidas favoritas:
+
+fill(113, 73, 201);
+textSize (20);
+text("my favority foods:", 50, 50);
+text("Arrumadinho de carne de sol",50, 90);
+text("Camarão", 50, 120);
+text("Tacacá", 50, 150);
+text ("pato no tucupi", 50, 180);
+
+
+
+Rastreador de mouse:
+
+fill(255, 0, 255);
+
+draw = function() {
+    background(255, 255, 255);
+    ellipse(mouseX, mouseY, 12, 12); 
+    var tab = (mouseX + "," + mouseY);
+    text(tab, mouseX, mouseY);    
+};
+
+
+
+
+
+Projeto:Anúncio publicitário:
+
+fill(107, 76, 235);
+textSize(30);
+text("Salão da cabeleleila leila", 10, 30);
+textSize(20);
+text("O salão de cabeleleilo da cabeleleila", 50, 87);
+
+textSize(12);
+text("venha fazer suas unhas, hidratar seus cabelos e até suas madeixas", 10, 150);
+
+fill(107, 76, 235);
+arc(51, 171, 30, -18, -335);
+
+
+fill(245, 17, 173);
+ellipse(52, 250, 99, 93);
+
+fill(245, 17, 173);
+ellipse(52, 290, 99, 93);
+
+fill(245, 17, 173);
+ellipse(52, 340, 99, 93);
+
+
+
+
+
+
+
+
+
+

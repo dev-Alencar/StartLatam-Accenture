@@ -1,0 +1,60 @@
+button {
+    color: #04bf58;
+    background-color: rgb(68, 66, 66);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: .8rem;
+   
+}
+
+button:hover{
+    background:#04bf58; 
+    color:rgb(68, 66, 66);
+    cursor:pointer; 
+    
+}
+
+body{
+    background-color: rgb(34, 32, 32);
+    color:  #04bf58;
+    font-family: monospace;
+    font-size: 2rem;
+}
+
+input{
+    border-radius: .8rem;
+    font-style: italic;
+    font-weight: bold;
+    width: 50%;
+    height: 1.5rem;
+   
+  
+    
+}
+
+p{
+    color: #9871F5;
+    font-weight: bold;
+    font-size: 1.0rem;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+
+.chat{
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    bottom: 40%;
+    margin-right: 10%;
+    
+}

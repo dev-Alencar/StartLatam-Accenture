@@ -1,0 +1,41 @@
+ h1{
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: fantasy;
+  font-weight: bold;
+}
+.interno{
+    display: flex;
+    justify-content: center;
+}
+.inputButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+button{ width: 5vw;
+    cursor: pointer;
+    margin-left: 5vh;
+    border-radius: 2rem;
+}
+body{
+    background-color: black;
+    color:whitesmoke;
+    font-family: fantasy;
+    font-size: 1.2rem;
+}
+input{
+    width: 10vw;
+    height: 2vw;
+}
+#boraDale{
+color: #6959CD;
+}
+#bora{
+    color:#00FA9A;
+}
+#dale{
+    color:#FF1493;
+}
+

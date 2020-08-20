@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="total">
+    <h1> Digite um número de 1 - 100 e verifique: </h1>
+    <div class="interno">
+        <ul>
+            <li> Multiplo de 3 e 5, irá aparecer a frase <strong id="boraDale">BORA DALE</strong></li>
+            <li>Multiplo de 3, irá aparecer a palavra <strong id="bora">Bora</strong></li>
+            <li>Multiplo de 5, irá aparecer a palavra <strong id="dale">Dale</strong></li>
+            <li>Nenhuma das opções acima, irá aparecer apenas o número que foi digitado</li>
+        </ul>
+    </div> 
+  
+    <div class="inputButton">
+        <input type="number" placeholder="Digite um número" class="inicia" >
+        <button onclick="bootclicar()" class="btn">Iniciar</button> 
+        <button onclick="limpa()" class="limpe">Limpar</button>
+    </div>
+
+
+    <div class="container">
+        
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>

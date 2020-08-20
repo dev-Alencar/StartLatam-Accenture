@@ -5,7 +5,7 @@ function bootclicar(){
 
     if (variavel1% 3 === 0 && variavel1% 5 === 0 && variavel1 != 0 ){
 
-        newVar. innerHTML = `BORA DALE <br>`
+        newVar. innerHTML = `BORA DALE JavaScript <br>`
         document.querySelector(".container").appendChild(newVar)
 
 

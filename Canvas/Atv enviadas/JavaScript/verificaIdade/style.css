@@ -1,10 +1,49 @@
 body{
     background-color: black;
     color: whitesmoke;
-    font-family: monospace;
+    font-family: fantasy;
     font-size: 1.5rem;
 }
 
 h1{
-   font-size:2rem
+   font-size:2rem;
+   display:flex;
+   justify-content: center;
+}
+
+.container{
+    border: solid rgb(73, 115, 206) 0.5rem;
+    width: 100vh;
+    height: 50vh;
+    border-radius: 1rem;
+    
+}
+
+.nova{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.interno{
+    display:flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: fantasy;
+    
+}
+
+input{
+    width: 30vh;
+    border-radius: 1rem;
+    margin-left: 8rem;
+}
+
+button{
+    border-radius: 1rem ;
+    font-weight: bold;
+    background: rgb(73, 115, 206);
+    cursor:pointer;
+    margin-left: 1rem;
 }

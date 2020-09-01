@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: fantasy;
+    font-size: 1.5rem
+
+}
+
+.container{
+    border: solid rgb(71, 83, 187) 0.5rem;
+    width: 60vh;
+    height: 70 vh;
+    border-radius: 1.5rem;
+    padding:10vh;
+    
+}
+
+.nova{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: fantasy;
+}
+
+input{
+    width: 30vh;
+    border-radius: 1rem;
+    margin-left: 14vh;
+    margin-top: 4vh
+}
+
+.inputDois{
+    margin-top: 2vh;
+}
+
+button{
+    border-radius: 1rem;
+    font-weight: bold;
+    background: greenyellow;
+    cursor: pointer;
+    margin-left: 25vh;
+    margin-top: 10vh;
+}

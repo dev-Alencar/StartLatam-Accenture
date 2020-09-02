@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(red, yellow, green);
+}
+
+html {
+    min-height: 100%;
+}
+
+
+.boxInterno{
+    font-size: 1.rem;
+    margin-left: 60vh;
+    background: rgb(43, 41, 41);
+    color: green;
+    border-radius: 2rem;
+    width: 80vh;
+    height: 15vh;
+    margin-top: 20vh;
+    padding: 5vh;
+  
+
+}
+
+
+span{
+    margin-left: 12px;
+    padding: 5px;
+    font-family: fantasy;
+    font-weight: bold;
+    
+}
+
+span:hover{
+    color: red;
+    cursor: pointer
+}
